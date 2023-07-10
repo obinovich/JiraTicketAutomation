@@ -69,7 +69,7 @@ def last_day_of_month(date_value):
 #Create entry on monday.com under Security patching of servers
 #
 def create_monday_entry(tdate, ticketkey, summary):
-    apiKey = "eywfgyefefhihe774394594hhn437g632g"
+    apiKey = "$$your API key $$$$"
     apiUrl = "https://api.monday.com/v2"
     headers = {"Authorization": apiKey}
 
