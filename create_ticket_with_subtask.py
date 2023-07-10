@@ -72,7 +72,7 @@ def last_day_of_month(date_value):
 #Create entry on monday.com under Security patching of servers
 # SCC - TID platform and solution = 179060533
 def create_monday_entry(tdate, ticketkey,summary):
-    apiKey = "rtehe5yukuk687o5yt34t2hjoo8deegt4gb9k"
+    apiKey = "###your API key####"
     apiUrl = "https://api.monday.com/v2"
     headers = {"Authorization": apiKey}
 
